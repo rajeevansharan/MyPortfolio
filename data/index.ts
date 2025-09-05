@@ -98,8 +98,6 @@ interface AboutContent {
     experience: string;
     education: string;
   };
-  journeyTitle: string;
-  journeyText: string[];
   skillsTitle: string;
   experienceTitle: string;
   educationTitle: string;
@@ -133,10 +131,6 @@ interface ContactContent {
       label: string;
       value: string;
     };
-  };
-  testimonials: {
-    title: string;
-    description: string;
   };
   formStatus: {
     success: string;
@@ -203,12 +197,12 @@ interface LegalContent {
 export const websiteInfo: WebsiteInfo = {
   title: "Orvith - Creative Developer",
   description: "Portfolio of Orvith, a creative developer specializing in web development, UI/UX design, and more.",
-  author: "Orvith",
+  author: "Sharan",
   jobTitle: "Full Stack Developer",
-  profileImage: "/anna.jpg",
-  contactEmail: "hello@orvith.com",
-  contactPhone: "+123 456 7888",
-  contactLocation: "San Francisco, California"
+  profileImage: "/spider.jpg",
+  contactEmail: "rajeevansharan@gmail.com",
+  contactPhone: "+94 77 299 5460",
+  contactLocation: "Jaffna, SriLanka"
 };
 
 // Hero section content
@@ -229,15 +223,14 @@ export const navItems: NavItem[] = [
   { name: "Home", href: "#home", icon: "IconHome" },
   { name: "Projects", href: "#projects", icon: "IconBriefcase" },
   { name: "About", href: "#about", icon: "IconUser" },
-  { name: "Testimonials", href: "#testimonials", icon: "IconStar" },
-  { name: "Contact", href: "#contact", icon: "IconMessage" },
+  { name: "Contact", href: "#contact", icon: "IconMessage" }, 
 ];
 
 // Social media links - customize your social media URLs here
 export const socialLinks: SocialLink[] = [
   { name: "GitHub", url: "https://github.com/rajeevansharan", icon: "IconBrandGithub" },
   { name: "LinkedIn", url: "https://www.linkedin.com/in/rajeevan-sharan-a1565927b/", icon: "IconBrandLinkedin" },
-  { name: "Twitter", url: "https://twitter.com/rajeevansharan", icon: "IconBrandTwitter" }
+  { name: "FaceBook", url: "https://www.facebook.com/share/19dpXGBdhc/", icon: "IconBrandFacebook" }
 ];
 
 // Projects section content
@@ -435,10 +428,6 @@ export const contactContent: ContactContent = {
       value: "Jaffna, SriLanka"
     }
   },
-  testimonials: {
-    title: "Client Testimonials",
-    description: "Feedback from clients I've had the pleasure of working with."
-  },
   socialHeading: "Connect",
   formStatus: {
     success: "Your message has been sent successfully!",
@@ -467,12 +456,6 @@ export const aboutContent: AboutContent = {
     experience: "Experience",
     education: "Education"
   },
-  journeyTitle: "My Journey",
-  journeyText: [
-    "With over 5 years of experience in web development and design, I've had the privilege of working on a wide range of projects that have helped me refine my skills and expand my expertise.",
-    "My approach to development is centered around creating intuitive, accessible, and visually appealing solutions that not only meet but exceed client expectations. I believe in the power of clean code and thoughtful design to transform ideas into impactful digital experiences.",
-    "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or hiking in the beautiful Swiss Alps."
-  ],
   skillsTitle: "My Skills",
   experienceTitle: "Professional Experience",
   educationTitle: "Education",
@@ -528,7 +511,7 @@ export const footerContent: FooterContent = {
     { label: "Terms of Service", href: "/terms" },
     { label: "Cookies", href: "/cookies" }
   ],
-  copyright: `© ${new Date().getFullYear()} Orvith. All rights reserved.`
+  copyright: `© ${new Date().getFullYear()} All rights reserved.`
 };
 
 // Legal pages content
