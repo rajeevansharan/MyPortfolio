@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { motion, Variants } from "framer-motion";
-import { IconBrandGithub, IconBrandLinkedin, IconBrandTwitter, IconMail, IconPhone, IconMapPin, IconSend } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandLinkedin, IconBrandTwitter, IconMail, IconPhone, IconMapPin, IconBrandFacebook, IconSend } from "@tabler/icons-react";
 import emailjs from "@emailjs/browser";
 import { companies, contactContent, websiteInfo, socialLinks } from "@/data";
 import Image from "next/image";
@@ -288,7 +288,7 @@ export function Contact() {
                   let Icon;
                   if (link.icon === "IconBrandGithub") Icon = IconBrandGithub;
                   else if (link.icon === "IconBrandLinkedin") Icon = IconBrandLinkedin;
-                  else if (link.icon === "IconBrandTwitter") Icon = IconBrandTwitter;
+                  else if (link.icon === "IconBrandFacebook") Icon = IconBrandFacebook;
                   
                   return (
                     <a 
