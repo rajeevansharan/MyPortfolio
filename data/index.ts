@@ -235,9 +235,9 @@ export const navItems: NavItem[] = [
 
 // Social media links - customize your social media URLs here
 export const socialLinks: SocialLink[] = [
-  { name: "GitHub", url: "https://github.com/llllll", icon: "IconBrandGithub" },
-  { name: "LinkedIn", url: "https://linkedin.com/in/llllll", icon: "IconBrandLinkedin" },
-  { name: "Twitter", url: "https://twitter.com/llllll", icon: "IconBrandTwitter" }
+  { name: "GitHub", url: "https://github.com/rajeevansharan", icon: "IconBrandGithub" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/rajeevan-sharan-a1565927b/", icon: "IconBrandLinkedin" },
+  { name: "Twitter", url: "https://twitter.com/rajeevansharan", icon: "IconBrandTwitter" }
 ];
 
 // Projects section content
@@ -256,27 +256,27 @@ export const projectsContent: ProjectsContent = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "SmartPOS for Restaurants",
-    des: "A comprehensive cloud-based Point of Sale system for restaurants, featuring kitchen display integration, QR code ordering, order management, inventory tracking, and real-time analytics.",
+    title: "Automatic Medicine Dispenser",
+    des: "A microcontroller-based device that automates medication management by dispensing accurate doses at scheduled times. It includes temperature monitoring, caregiver notifications, and LED guidance for ease of use.",
     img: "/p1.jpg",
-    iconLists: ["re", "tail", "node"],
+    iconLists: [],
     link: "",
     featured: true
   },
   {
     id: 2,
-    title: "3D Shirt Carousel – Interactive Apparel Showcase",
-    des: "Experience a dynamic 3D carousel that brings shirt designs to life. Effortlessly browse and interact with apparel in a visually engaging, immersive display.",
-    img: "/p2.png",
-    iconLists: ["next", "tail", "ts", "stream", "c"],
+    title: "Learning Management System",
+    des: "I worked with my team to develop a Learning Management System (LMS) for the Mahapola Port & Maritime Academy to replace its old manual system. The LMS supports course management, attendance, exams, and role-based access. My part was building the Administrator Interface and Dashboard, including managing courses, assigning lecturers/students, and tracking attendance.",
+    img: "/Project2.png",
+    iconLists: ["next", "tail", "ts", "boot", ],
     featured: false
   },
   {
     id: 3,
-    title: "B2B Agency Portfolio",
-    des: "This portfolio showcases my work on innovative B2B solutions during my time with a leading agency, highlighting advanced services and successful client collaborations.",
+    title: "Personal Contact Book",
+    des: "A simple yet comprehensive web application built with Spring Boot for managing personal contacts. Demonstrates Spring Boot concepts including MVC architecture, JPA data persistence, Thymeleaf templating, RESTful endpoints, Dockerized deployment, pagination and responsive web design.",
     img: "/p3.png",
-    iconLists: ["re", "tail", "ts", "three", "c"],
+    iconLists: ["re", "tail", "ts", "three",],
     featured: false
   },
   {
