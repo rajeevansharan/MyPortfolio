@@ -5,7 +5,6 @@ import { Sidebar } from "@/components/ui/sidebar";
 import { Hero } from "@/components/ui/hero";
 import { Projects } from "@/components/ui/projects";
 import { About } from "@/components/ui/about";
-import { Testimonials } from "@/components/ui/testimonials";
 import { Contact } from "@/components/ui/contact";
 import { Footer } from "@/components/ui/footer";
 import { SchemaMarkup } from "@/components/SchemaMarkup";
@@ -27,10 +26,7 @@ const Home = () => {
         
         {/* About Section */}
         <About />
-        
-        {/* Testimonials Section */}
-        <Testimonials />
-        
+      
         {/* Contact Section */}
         <Contact />
         
