@@ -258,7 +258,7 @@ export const projects: Project[] = [
     id: 1,
     title: "Automatic Medicine Dispenser",
     des: "A microcontroller-based device that automates medication management by dispensing accurate doses at scheduled times. It includes temperature monitoring, caregiver notifications, and LED guidance for ease of use.",
-    img: "/p1.jpg",
+    img: "/Project1.jpg",
     iconLists: [],
     link: "",
     featured: true
@@ -276,7 +276,7 @@ export const projects: Project[] = [
     title: "Personal Contact Book",
     des: "A simple yet comprehensive web application built with Spring Boot for managing personal contacts. Demonstrates Spring Boot concepts including MVC architecture, JPA data persistence, Thymeleaf templating, RESTful endpoints, Dockerized deployment, pagination and responsive web design.",
     img: "/p3.png",
-    iconLists: ["re", "tail", "ts", "three",],
+    iconLists: ["boot"],
     featured: false
   },
   {
@@ -424,15 +424,15 @@ export const contactContent: ContactContent = {
     title: "Contact Information",
     email: {
       label: "Email",
-      value: "hello@orvith.com"
+      value: "rajeevansharan@gmail.com"
     },
     phone: {
       label: "Phone",
-      value: "+123 456 7890"
+      value: "+94 77 299 5460"
     },
     location: {
       label: "Location",
-      value: "San Francisco, California"
+      value: "Jaffna, SriLanka"
     }
   },
   testimonials: {
@@ -462,7 +462,7 @@ export const skills = [
 export const aboutContent: AboutContent = {
   sectionTitle: "About Me",
   subtitle: "MY BACKGROUND",
-  description: "I'm a passionate developer with over 7 years of experience building web applications. I specialize in creating performant, accessible, and beautiful digital experiences with modern technologies like React, Next.js, and TypeScript.",
+  description: "I am Rajeevan Sharan. I am passionate about learning and exploring new ideas. I enjoy finding creative ways to solve problems and love building things that can make a positive impact. I am curious, motivated, and always eager to grow.",
   tabLabels: {
     experience: "Experience",
     education: "Education"
@@ -475,7 +475,7 @@ export const aboutContent: AboutContent = {
   ],
   skillsTitle: "My Skills",
   experienceTitle: "Professional Experience",
-  educationTitle: "Education & Certifications",
+  educationTitle: "Education",
   resumeButtonText: "Download Resume",
   contactButtonText: "Contact Me"
 };
@@ -483,28 +483,16 @@ export const aboutContent: AboutContent = {
 // Education data for the education/experience toggle section
 export const educationData: Education[] = [
   {
-    title: "Master's in Computer Science",
-    institution: "ETH Zurich",
-    duration: "2015 - 2017",
-    description: "Specialized in Human-Computer Interaction and Software Engineering with focus on web technologies and interactive systems."
+    title: "Bachelor of Science in Information Technology",
+    institution: "University of Moratuwa",
+    duration: "2023 - 2027",
+    description: ""
   },
   {
-    title: "Bachelor's in Software Engineering",
-    institution: "University of Zurich",
-    duration: "2012 - 2015",
-    description: "Studied programming fundamentals, data structures, algorithms, and software development methodologies."
-  },
-  {
-    title: "Advanced Web Development Certification",
-    institution: "Zurich University of Applied Sciences",
-    duration: "2014",
-    description: "Intensive specialization in modern front-end frameworks, responsive design, and advanced JavaScript concepts."
-  },
-  {
-    title: "Cloud Computing Certification",
-    institution: "AWS Training & Certification",
-    duration: "2016",
-    description: "Comprehensive training in cloud architecture, serverless computing, and implementing scalable solutions with AWS."
+    title: "G.C.E. Advanced Level – Mathematics Stream (2AB)",
+    institution: "J/Kokuvil Hindu College",
+    duration: "2022",
+    description: ""
   }
 ];
 
