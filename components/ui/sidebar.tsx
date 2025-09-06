@@ -15,7 +15,8 @@ import {
   IconMessage,
   IconStar,
   IconMenu2,
-  IconX
+  IconX,
+  IconBrandFacebook
 } from "@tabler/icons-react";
 import { navItems as navigationItems, socialLinks, websiteInfo } from "@/data";
 
@@ -42,6 +43,7 @@ const getIconComponent = (iconName: string, size = 20) => {
     case 'IconBrandGithub': return <IconBrandGithub size={size} />;
     case 'IconBrandLinkedin': return <IconBrandLinkedin size={size} />;
     case 'IconBrandTwitter': return <IconBrandTwitter size={size} />;
+    case 'IconBrandFacebook': return <IconBrandFacebook size={size} />;
     default: return null;
   }
 };

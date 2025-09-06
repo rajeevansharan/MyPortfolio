@@ -268,16 +268,16 @@ export const projects: Project[] = [
     id: 3,
     title: "Personal Contact Book",
     des: "A simple yet comprehensive web application built with Spring Boot for managing personal contacts. Demonstrates Spring Boot concepts including MVC architecture, JPA data persistence, Thymeleaf templating, RESTful endpoints, Dockerized deployment, pagination and responsive web design.",
-    img: "/p3.png",
-    iconLists: ["boot"],
+    img: "/Project3.png",
+    iconLists: ["boot" , "html" ,  "bootstrap" , "postgresql"], 
     featured: false
   },
   {
     id: 4,
-    title: "AI SaaS Platform – Interactive 3D Web Experience",
-    des: "An advanced AI-powered SaaS platform featuring immersive 3D visuals and smooth GSAP animations, inspired by the Apple iPhone 15 Pro website. Showcases cutting-edge web technologies for a stunning user experience.",
+    title: "Restaurant Management System",
+    des: "Developing a comprehensive restaurant management system to digitize core restaurant operations including menu management, order processing, and user authentication.",
     img: "/p4.png",
-    iconLists: ["next", "tail", "ts", "three", "gsap"],
+    iconLists: ["boot", "MySql", ],
     featured: false
   },
 ];
