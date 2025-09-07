@@ -62,6 +62,7 @@ interface Project {
   iconLists: string[];
   link?: string;
   featured: boolean;
+  githublink?: string;
 }
 
 // Testimonial interface is exported below
@@ -254,15 +255,17 @@ export const projects: Project[] = [
     img: "/Project1.jpg",
     iconLists: [],
     link: "",
-    featured: true
+    featured: true,
+    githublink: ""
   },
   {
     id: 2,
     title: "Learning Management System",
-    des: "I worked with my team to develop a Learning Management System (LMS) for the Mahapola Port & Maritime Academy to replace its old manual system. The LMS supports course management, attendance, exams, and role-based access. My part was building the Administrator Interface and Dashboard, including managing courses, assigning lecturers/students, and tracking attendance.",
+    des: "Developed a Learning Management System (LMS) for the Mahapola Port & Maritime Academy to replace its manual system. The LMS manages courses, attendance, exams, and role-based access. Focused on building the Administrator Interface and Dashboard, as well as the Student Dashboard, including course management, lecturer/student assignment, and attendance tracking.",
     img: "/Project2.png",
     iconLists: ["next", "tail", "ts", "boot", ],
     featured: false
+    , githublink: ""
   },
   {
     id: 3,
@@ -271,14 +274,16 @@ export const projects: Project[] = [
     img: "/Project3.png",
     iconLists: ["boot" , "html" ,  "bootstrap" , "postgresql"], 
     featured: false
+    , githublink: "https://github.com/rajeevansharan/PersonalContactBook"
   },
   {
     id: 4,
     title: "Restaurant Management System",
     des: "Developing a comprehensive restaurant management system to digitize core restaurant operations including menu management, order processing, and user authentication.",
-    img: "/p4.png",
+    img: "/Project4.png",
     iconLists: ["boot", "MySql", ],
     featured: false
+    , githublink: "https://github.com/rajeevansharan/SimpleRestaurantManagementSystem"
   },
 ];
 
