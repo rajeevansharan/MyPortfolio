@@ -21,7 +21,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Orvith | Crafting Digital Experiences",
+  title: "My Portfolio",
   description:
     "Discover Orvith's world of design and development — where freelance creativity meets smart digital solutions. From bold ideas to pixel-perfect execution.",
   keywords: [
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Orvith | Crafting Digital Experiences",
+    title: "My Portfolio",
     description:
       "Discover Orvith's world of design and development — where freelance creativity meets smart digital solutions.",
     url: "https://Orvith.com", // Replace with your actual domain
